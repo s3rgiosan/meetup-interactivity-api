@@ -1,0 +1,32 @@
+{
+  "name": "s3rgiosan/meetup-interactivity-api",
+  "type": "wordpress-theme",
+  "authors": [
+    {
+      "name": "Sérgio Santos",
+      "homepage": "https://s3rgiosan.dev"
+    }
+  ],
+  "autoload": {
+    "psr-4": {}
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "composer-plugin-api": "^2.3"
+  },
+  "require-dev": {
+    "pixelalbatross/coding-standards": "dev-main"
+  },
+  "scripts": {
+    "lint": "phpcs .",
+    "lint-fix": "phpcbf ."
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "optimize-autoloader": true
+  }
+}

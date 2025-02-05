@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=window.wp.blocks,i=window.wp.i18n,e=window.wp.blockEditor,o=window.ReactJSXRuntime,s=JSON.parse('{"UU":"create-block/movie-watchlist"}');(0,t.registerBlockType)(s.UU,{edit:function({attributes:t,setAttributes:s}){const c=(0,e.useBlockProps)();return(0,o.jsx)("p",{...c,children:(0,i.__)("Movie Watchlist","movie-watchlist")})}})})();

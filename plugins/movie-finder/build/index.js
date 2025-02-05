@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.wp.blocks,i=window.wp.i18n,t=window.wp.blockEditor,o=window.ReactJSXRuntime,n=JSON.parse('{"UU":"create-block/movie-finder"}');(0,e.registerBlockType)(n.UU,{edit:function({attributes:e,setAttributes:n}){const r=(0,t.useBlockProps)();return(0,o.jsx)("p",{...r,children:(0,i.__)("Movie Finder","movie-finder")})}})})();

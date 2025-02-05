@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="PixelAlbatross">
+	<rule ref="PixelAlbatross" />
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array" value="meetup" />
+		</properties>
+	</rule>
+</ruleset>
